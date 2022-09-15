@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+body{
+background: #232526;
+background: -webkit-linear-gradient(right, brown ,green);  /*mixtures: 3 arguments.*/
+}
+
+.top{
+background-color: black;
+font-family: 'Source Code Pro', monospace;
+color: white;
+}
+
+.container{
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 3rem;
+}
+
+.quickadd{
+font-size: 1rem;
+font-family: 'Raleway', sans-serif;
+margin-top: 15px;
+}
+
+#new {
+margin-right: 15px;
+margin-left: 5px;
+
+}
+#content{
+    margin: 5px;
+}
+
+#QuickAdd{
+border-radius: 15px;
+color: white;
+background-color: #303030;
+border: none;
+width: 200px;
+transition:  0.5s;
+
+}
+
+
+#QuickAdd:hover{
+background: #C0B236;
+width: 250px;
+
+
+}
+
+hr {
+border: 0;
+height: 2px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+input{
+    margin-bottom:  25px;
+    width: 100%;
+    color: white;
+
+    border : 0px;
+    background: rgba(0,0,0,0.1);
+    border-bottom: 2px;
+    border-bottom-color: aliceblue;
+
+    height: 26px;
+    font-size: 16px;
+
+}
+
+#cp{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+#bar{
+    color: blue;
+    transition: color 2s;
+}
+#bar:hover{
+    color: red;
+}
+#Add,#Cancel {
+
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+    left:300px;
+
+    border-radius:5px;
+    border: none;
+    width: 70px;
+    transition: width 0.5s;
+}
+#Add:hover{
+  background: #C0B236;
+    width: 100px;
+
+
+
+}
+
+#Cancel:hover{
+  background: #C0B236;
+   width:100px;
+}
